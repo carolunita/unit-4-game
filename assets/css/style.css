@@ -1,0 +1,119 @@
+body {
+	background: url(../images/Background.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+h1 {
+	color: #fff;
+	font-family: 'Righteous', cursive;
+}
+
+h2 {
+	color:	#ff69b4;
+}
+
+#container {
+	margin-top: 20px;
+}
+
+header {
+	background-color: #ff69b4;
+	width: 500px;
+	margin: 0 auto;
+	border-radius: 25%;
+}
+
+header h1 {
+	text-align: center;
+	font-size: 50px;
+	letter-spacing: 2px;
+	padding: 10px 5px 10px 5px;
+}
+
+section {
+	background-color: #9370db;
+	width: 500px;
+	height: 200px;
+	line-height: 1em;
+	margin: 15px auto 15px;
+	font-size: 17px;
+}
+
+section p {
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#randomnumber-and-scoreboard {
+	width: 500px;
+	margin: 15px auto 15px;
+	height: 130px;
+}
+
+#random-number-generator {
+	background-color: #088edf;
+	font-size: 60px;
+	color: #7fff00;
+	width: 500px;
+	width: 49%;
+	height: 100%;
+	float: left;
+	line-height: 130px;
+	vertical-align: middle;
+	text-align: center;
+	font-family: 'Amaranth', sans-serif;
+}
+
+#score-board {
+	background-color: #3dd3c7;
+	width: 49%;
+	height: 100%;
+	float: right;
+	text-align: center;
+	font-size: 30px;
+	line-height: 40px;
+	vertical-align: middle;
+	text-align: center;
+	font-family: 'Amaranth', sans-serif;
+}
+
+#crystals {
+	background-color: #fff;
+	width: 500px;
+	height: 125px;
+	margin: auto;
+}
+
+#crystals img {
+	width: 123px;
+	height: 100%;
+	float: left;
+	display: block;
+	margin: auto;
+	border: 1px solid #4b2165;
+}
+
+#score {
+	clear: both;
+	width: 500px;
+	height: 110px;
+	background-color: #ff7f50;
+	margin: 15px auto;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#score h1 {
+	font-size: 150%;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+#score-counter {
+	color: #7b2cb3;
+	font-size: 350%;
+	padding-left: 10px;
+	font-family: 'Russo One', sans-serif;
+}

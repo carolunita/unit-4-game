@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Crystals Collector Game</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Amaranth|Righteous|Russo+One" rel="stylesheet">
+	<link rel="icon" type="image/png" href="assets/images/Carolunita_Pink.png">
+</head>
+
+<body>
+	<div id="container">
+		<header>
+			<h1>Crystals Collector</h1>
+		</header>
+
+		<section>
+			<p>You will be given a random number at the start of the game.</p>
+			<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+			<p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+			<p>The value of each crystal is hidden from you until you click on it.</p>
+			<p>Each time when the game starts, the game will change the values of each crystal.</p>
+		</section>
+
+		<div id="randomnumber-and-scoreboard">
+			<div id="random-number-generator">
+				<span id="random-number"></span>
+			</div>
+
+			<div id="score-board">
+				<span id="win-or-lose"></span>
+				<h2>Wins: <span id="win-counter">0</span></h2>
+				<h2>Losses: <span id="loss-counter">0</span></h2>
+			</div>
+		</div>
+
+		<div id="crystals">
+			<img id="pink" src="assets/images/indianpink.png" alt="Indian Pink Swarovski Picture">
+			<img id="amethyst" src="assets/images/Amethyst.png" alt="Amethyst Picture">
+			<img id="sapphire" src="assets/images/sapphire.jpg" alt="Sapphire Picture">
+			<img id="emerald" src="assets/images/emerald.jpg" alt="Emerald Picture">
+		</div>
+
+		<div id="score">
+			<h1>Your total score is:</h1>
+			<span id="score-counter"></span>
+		</div>
+	</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
